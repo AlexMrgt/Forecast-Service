@@ -1,0 +1,26 @@
+.place-not-found{
+  position: relative;
+  z-index: 5;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.place-not-found__title{
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+}
+
+.place-not-found__about{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}

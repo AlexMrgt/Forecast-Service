@@ -1,0 +1,45 @@
+.weather-status{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-status__extremum{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Segoe UI',  sans-serif;
+  font-weight: 200;
+}
+
+.weather-status__extremum::before{
+  display: block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.weather-status__extremum_max{
+  top: 10px;
+}
+
+.weather-status__extremum_max::before{
+  background-image: url('../../images/icons/day-time-icons/max-temp.png');
+
+}
+
+.weather-status__extremum_min{
+  bottom: 0;
+}
+
+.weather-status__extremum_min::before{
+  background-image: url('../../images/icons/day-time-icons/min-temp.png');
+}

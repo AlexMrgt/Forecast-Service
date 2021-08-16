@@ -1,0 +1,33 @@
+.week-card {
+  position: relative;
+  z-index: 5;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.week-card__temps-and-status-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.week-card__header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.week-card__current-day-name{
+  color: #c6d3ecd7;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 200;
+}
+
+.week-card__current-day-date{
+  color: #c6d3ecd7;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 200;
+}

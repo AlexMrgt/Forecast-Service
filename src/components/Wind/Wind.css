@@ -1,0 +1,56 @@
+.wind{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+  background-color: rgba(0, 0, 255, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.wind__parameter{
+  display: block;
+  margin:0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 200;
+}
+
+.wind__text-params{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wind__wind-info{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.wind__wind-info::before{
+  content: '';
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.wind__wind-info_wind::before{
+  background-image: url('../../images/icons/day-time-icons/wind.png');
+}
+
+.wind__wind-info_gust{
+  display: flex;
+  align-items: center;
+}
+
+.wind__wind-info_gust::before{
+  background-image: url('../../images/icons/day-time-icons/gust.png');
+}
+

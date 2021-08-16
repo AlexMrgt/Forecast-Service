@@ -1,0 +1,22 @@
+.params-container{
+  position: relative;
+  z-index: 5;
+  background-color: rgba(0, 0, 200, 0.3) ;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.params-container__title{
+  margin: 0 0 15px 0;
+  padding: 0;
+  color: #C6CCEC;
+  font-family: Raleway;
+  font-weight: 200;
+}
+
+.params-container__body{
+  display: grid;
+  grid-template-columns: auto  auto;
+  color: white;
+}
+

@@ -1,0 +1,25 @@
+.weak-forecast{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.weak-forecast__title{
+  color: white;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.weak-forecast__card-container{
+  max-width: 1440px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+

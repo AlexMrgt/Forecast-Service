@@ -1,0 +1,42 @@
+
+.app{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.app_thunderstorm{
+  background-image: url('../../images/background/thunderstorm.jpg');
+}
+
+.app_drizzle{
+  background-image: url('../../images/background/drizzle.jpg');
+}
+
+.app_rain{
+  background-image: url('../../images/background/rain.jpg');
+}
+
+.app_snow{
+  background-image: url('../../images/background/snowfall.jpg');
+}
+
+.app_atmosphere{
+  background-image: url('../../images/background/rain.jpg');
+}
+
+.app_clear{
+  background-image: url('../../images/background/clear_sky_2.jpg');
+}
+
+.app_clouds{
+  background-image: url('../../images/background/cloudy_weather.jpg');
+}

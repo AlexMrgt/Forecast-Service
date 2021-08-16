@@ -1,0 +1,32 @@
+.parameter{
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI',  sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.parameter::before{
+  width: 50px;
+  height: 50px;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parameter_humidity::before{
+  background-image: url('../../images/icons/day-time-icons/humidity.png');
+}
+
+.parameter_pressure::before{
+  background-image: url('../../images/icons/day-time-icons/pressure.png');
+}
+
+.parameter_precipitation::before{
+  background-image: url('../../images/icons/day-time-icons/precipitation.png');
+}
