@@ -4,6 +4,8 @@
 
 Это `frontend` проекта "Forecast service". Это сайт для просмотра прогноза погоды в различных режимах.
 
+[Ссылка на сайт Forecast Service.](https://forecast-service.vercel.app/)
+
 ## Функционал
 
 + Просмотр текущей погоды в населенном пункте
