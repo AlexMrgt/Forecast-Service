@@ -39,7 +39,7 @@ const CurrentDayForecastCard: React.FC<Props> = ({
               {data.weather[0].description}
             </p>
             <img
-              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
+              src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
               alt='weather icon'
               className='day-forecast__icon'
             />

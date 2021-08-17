@@ -19,7 +19,7 @@ const WeatherStatus: React.FC<Props> = ({
       </p>
       <div className='day-forecast__image-container'>
         <img
-          src={`http://openweathermap.org/img/wn/${icon}@4x.png`}
+          src={`https://openweathermap.org/img/wn/${icon}@4x.png`}
           alt='weather icon'
           className='day-forecast__icon'
         />
