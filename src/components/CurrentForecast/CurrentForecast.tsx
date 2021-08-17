@@ -10,7 +10,7 @@ import Preloader from '../Preloader/Preloader';
 interface Props {
   searchName?: string,
   coords?: GeolocationCoordinates | null,
-  setBackground: (status: number) => void;
+  setBackground: (status: string) => void;
 }
 
 const CurrentForecast: React.FC<Props> = ({
@@ -34,7 +34,7 @@ const CurrentForecast: React.FC<Props> = ({
 
   useEffect(() => {
     if (forecast) {
-      setBackground(forecast.weather[0].id)
+      setBackground(forecast.weather[0].main)
     };
   }, [forecast]);
 

@@ -35,32 +35,9 @@ const App = () => {
     setSearchRequest(place);
   }
 
-  const setBackgroundImageState = (weatherStatus: number) => {
+  const setBackgroundImageState = (weatherStatus: string) => {
 
-    let weather = 'clear';
-
-    if (weatherStatus >= 200 && weatherStatus < 300) {
-      weather = 'thunderstorm';
-    }
-    else if (weatherStatus >= 300 && weatherStatus < 400) {
-      weather = 'drizzle';
-    }
-    else if (weatherStatus >= 500 && weatherStatus < 600) {
-      weather = 'rain';
-    }
-    else if (weatherStatus >= 600 && weatherStatus < 700) {
-      weather = 'snow';
-    }
-    else if (weatherStatus >= 700 && weatherStatus < 800) {
-      weather = 'atmosphere';
-    }
-    else if (weatherStatus === 800) {
-      weather = 'clear';
-    }
-    else if (weatherStatus > 800 && weatherStatus < 900) {
-      weather = 'clouds';
-    }
-    setBackgroundImageModificator(weather);
+    setBackgroundImageModificator(weatherStatus.toLowerCase() || 'clear');
   }
 
   useEffect(() => {

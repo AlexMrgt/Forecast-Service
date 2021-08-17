@@ -29,14 +29,46 @@
   background-image: url('../../images/background/snowfall.jpg');
 }
 
-.app_atmosphere{
-  background-image: url('../../images/background/rain.jpg');
+.app_mist{
+  background-image: url('../../images/background/mist.jpg');
+}
+
+.app_smoke{
+  background-image: url('../../images/background/smoke.jpg');
+}
+
+.app_haze{
+  background-image: url('../../images/background/haze.jpg');
+}
+
+.app_dust{
+  background-image: url('../../images/background/dust.jpg');
+}
+
+.app_fog{
+  background-image: url('../../images/background/fog.jpg');
+}
+
+.app_sand{
+  background-image: url('../../images/background/sand.jpg');
+}
+
+.app_ash{
+  background-image: url('../../images/background/volcano.jpg');
+}
+
+.app_squall{
+  background-image: url('../../images/background/squall.jpg');
+}
+
+.app_tornado{
+  background-image: url('../../images/background/tornado.jpg');
 }
 
 .app_clear{
-  background-image: url('../../images/background/clear_sky_2.jpg');
+  background-image: url('../../images/background/clear_1.jpg');
 }
 
 .app_clouds{
-  background-image: url('../../images/background/cloudy_weather.jpg');
+  background-image: url('../../images/background/cloudy.jpg');
 }
