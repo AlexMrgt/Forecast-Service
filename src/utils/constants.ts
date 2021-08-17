@@ -1,7 +1,7 @@
 import { WindDirection } from "../utils/interfaces";
 
 const BASE_FORECAST_API_URL = 'https://api.openweathermap.org/data/2.5';
-const BASE_GEO_API_URL = 'http://api.openweathermap.org/geo/1.0';
+const BASE_GEO_API_URL = 'https://api.openweathermap.org/geo/1.0';
 const OPEN_WEATHER_API_KEY = '88be7aaa0b3de9eca6e6b360fb6b4eab';
 
 const directions: WindDirection[] = [
